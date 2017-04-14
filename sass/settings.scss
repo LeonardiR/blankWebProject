@@ -1,10 +1,11 @@
 //Icons
-@import "../bower_components/font-awesome/scss/font-awesome";
-//Fonts
-
-
+@import "bower_components/font-awesome/scss/font-awesome";
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+@font-face {font-family: 'Gilroy-Heavy';src: url('fonts/32BE97_1_0.eot');src: url('fonts/32BE97_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/32BE97_1_0.woff2') format('woff2'),url('fonts/32BE97_1_0.woff') format('woff'),url('fonts/32BE97_1_0.ttf') format('truetype');}
 //Colors
-
+$red: #d9180a;
+$steel-gray: #424242;
 //Wrappers
 
 //Breakpoints

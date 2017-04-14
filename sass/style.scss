@@ -1,5 +1,65 @@
 //Variables and Mixins
  @import "settings";
  @import "tools";
+body{
+ font-family: Lato, sans-serif;
+}
+.banner{
+ color: white;
+ background-color: $steel-gray;
+ text-align: center;
+}
+.brand{
+  color: $red !important;
+  font-size: 19px !important;
+}
+.logo{
+  position: relative;
+  margin:0 auto;
+  width: 250px;
+  margin-top: 70px;
+}
+.sub-title{
+  font-style: italic;
+}
+.title-thin{
+  font-weight: 100;
+}
+.icon{
+  color: $red;
+  font-size: 220px;
+}
+.portfolio-subtilte{
+  color: $red;
+}
+.form{
+  background-color: $steel-gray;
+  color: white !important;
+  margin-top: 200px;
+}
+.form-title{
+  font-weight: 100;
+}
+.btn,.btn-default{
+  border-radius: 0 !important;
+  color: white !important;
+  background-color: $red;
+  border-color: transparent !important;
+}
+.btn:hover,.btn-default:hover{
+  color: $red !important;
+  background-color: white;
+}
+.logo-footer img{
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+}
+.footer{
+  color: $red;
+}
+
+
+
 
 
